@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>236</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+      <InstrProfShow>0</InstrProfShow><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow></Disassembly>
+    <Watch><Format><struct_types/><watch_formats/></Format><Column0>285</Column0><Column1>201</Column1><Column2>100</Column2><Column3>100</Column3></Watch><Register/><Memory><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory><Find-in-Files><ColumnWidth0>527</ColumnWidth0><ColumnWidth1>75</ColumnWidth1><ColumnWidth2>904</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-24903-19240</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-24380-19250</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-20596-29664</Identity><TabName>Breakpoints</TabName><Factory>Breakpoints</Factory></Tab><Tab><Identity>TabID-125-5262</Identity><TabName>Memory</TabName><Factory>Memory</Factory><Session><ZoneNumber>0</ZoneNumber><SelectionAnchor>6144</SelectionAnchor><SelectionEnd>6144</SelectionEnd><UnitsPerGroup>1</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><HScroll>0</HScroll><VScroll>377</VScroll></Session></Tab><Tab><Identity>TabID-4077-5393</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-2883-19244</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>ez430_chronos_datalogger</ExpandedNode><ExpandedNode>ez430_chronos_datalogger/driver</ExpandedNode><ExpandedNode>ez430_chronos_datalogger/include</ExpandedNode><ExpandedNode>ez430_chronos_datalogger/logic</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-9554-29461</Identity><TabName>Watch</TabName><Factory>Watch</Factory><Session><Expressions><Expression><Expression>sBlueRobin</Expression></Expression><Expression><Expression>BRRX__PacketBits_t</Expression></Expression><Expression><Expression>BRRX__TimerState_t</Expression></Expression><Expression><Expression>TXCB_pt</Expression></Expression></Expressions><TabId>0</TabId><Column0>285</Column0><Column1>201</Column1><Column2>100</Column2><Column3>100</Column3></Session></Tab><Tab><Identity>TabID-28397-3300</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><REG1>0</REG1><REG2>0</REG2><Group>25</Group><States>0</States></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Dokumente und Einstellungen\anton\Eigene Dateien\Projekte\TI CC430 WDK\Software\IAR datalogger WS1_5\change_record.txt</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>22</SelStart><SelEnd>22</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Dokumente und Einstellungen\anton\Eigene Dateien\Projekte\TI CC430 WDK\Software\IAR datalogger WS1_5\main.c</Filename><XPos>0</XPos><YPos>111</YPos><SelStart>4321</SelStart><SelEnd>4321</SelEnd></Tab><ActiveTab>1</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00aba100><key>iaridepm.enu1</key></Toolbar-00aba100></Sizes></Row0><Row1><Sizes><Toolbar-05644640><key>debuggergui.enu1</key></Toolbar-05644640></Sizes></Row1><Row2><Sizes><Toolbar-05637460><key>430fet1</key></Toolbar-05637460></Sizes></Row2></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>434</Bottom><Right>327</Right><x>-2</x><y>-2</y><xscreen>179</xscreen><yscreen>200</yscreen><sizeHorzCX>139844</sizeHorzCX><sizeHorzCY>276243</sizeHorzCY><sizeVertCX>257031</sizeVertCX><sizeVertCY>602210</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>434</Bottom><Right>344</Right><x>-2</x><y>-2</y><xscreen>167</xscreen><yscreen>149</yscreen><sizeHorzCX>130469</sizeHorzCX><sizeHorzCY>205801</sizeHorzCY><sizeVertCX>270313</sizeVertCX><sizeVertCY>602210</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>276243</sizeHorzCY><sizeVertCX>139844</sizeVertCX><sizeVertCY>276243</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

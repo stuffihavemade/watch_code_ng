@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1405122603</fileChecksum>
+  <configuration>
+    <name>433MHz Flash Based Updater</name>
+    <outputs>
+      <file>$PROJ_DIR$\flash_based_lnkcc430F6137.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\cc430x613x.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\wbsl.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\radio.h</file>
+      <file>$PROJ_DIR$\display.h</file>
+      <file>$PROJ_DIR$\display.c</file>
+      <file>$PROJ_DIR$\display1.c</file>
+      <file>$PROJ_DIR$\wbsl.c</file>
+      <file>$PROJ_DIR$\wbsl.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ysizet.h</file>
+      <file>$PROJ_DIR$\radio.c</file>
+      <file>$PROJ_DIR$\project_defs.h</file>
+      <file>$PROJ_DIR$\rf1a.c</file>
+      <file>$PROJ_DIR$\rf1a.h</file>
+      <file>$PROJ_DIR$\RFBSL_Low_Level_Init.s43</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\Wireless_Update.pbd</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\rf1a.pbi</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Exe\flash_based_rfbsl_ism_lf.d43</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\List\flash_based_rfbsl_ism_lf.map</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\radio.pbi</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\display.r43</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\display1.r43</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\display1.pbi</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\wbsl.r43</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\radio.r43</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\rf1a.r43</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Obj\RFBSL_Low_Level_Init.r43</file>
+      <file>$PROJ_DIR$\433MHz Flash Based Updater\Exe\flash_based_rfbsl_ism_lf.txt</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 28 29 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 4 10 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 4 10 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 4 10 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 4 10 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\wbsl.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 4 10 12 11 8 1 5 2 3 7 13 20 14 24 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 4 10 12 11 8 1 5 3 7 13 20 14 24 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\radio.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 4 10 12 24 14 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 4 10 12 24 14 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rf1a.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22 4 10 12 24 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 4 10 12 24 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFBSL_Low_Level_Init.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\433MHz Flash Based Updater\Obj\Wireless_Update.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 32 34 30 27 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\433MHz Flash Based Updater\Exe\flash_based_rfbsl_ism_lf.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 29 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0 38 31 33 36 37 35 6</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>868MHz Flash Based Updater</name>
+    <outputs>
+      <file>$PROJ_DIR$\flash_based_lnkcc430F6137.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\cc430x613x.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Exe\flash_based_rfbsl_ism_eu.txt</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\radio.h</file>
+      <file>$PROJ_DIR$\display.h</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\Wireless_Update.pbd</file>
+      <file>$PROJ_DIR$\display.c</file>
+      <file>$PROJ_DIR$\display1.c</file>
+      <file>$PROJ_DIR$\wbsl.c</file>
+      <file>$PROJ_DIR$\wbsl.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ysizet.h</file>
+      <file>$PROJ_DIR$\radio.c</file>
+      <file>$PROJ_DIR$\project_defs.h</file>
+      <file>$PROJ_DIR$\rf1a.c</file>
+      <file>$PROJ_DIR$\rf1a.h</file>
+      <file>$PROJ_DIR$\RFBSL_Low_Level_Init.s43</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Exe\flash_based_rfbsl_ism_eu.d43</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\List\flash_based_rfbsl_ism_eu.map</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\radio.pbi</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\radio.r43</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\display1.r43</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\display1.pbi</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\rf1a.r43</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\wbsl.r43</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\RFBSL_Low_Level_Init.r43</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\wbsl.pbi</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\rf1a.pbi</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\display.r43</file>
+      <file>$PROJ_DIR$\868MHz Flash Based Updater\Obj\display.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 27 28 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\868MHz Flash Based Updater\Obj\Wireless_Update.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 39 32 29 37 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23 4 10 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 10 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23 4 10 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 10 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\wbsl.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23 4 10 12 11 9 1 5 2 3 7 13 21 14 25 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 10 12 11 9 1 5 3 7 13 21 14 25 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\radio.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23 4 10 12 25 14 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 10 12 25 14 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rf1a.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23 4 10 12 25 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 4 10 12 25 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFBSL_Low_Level_Init.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\868MHz Flash Based Updater\Exe\flash_based_rfbsl_ism_eu.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 28 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0 35 38 31 30 33 34 6</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>915MHz Flash Based Updater</name>
+    <outputs>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Exe\flash_based_rfbsl_ism_us.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\cc430x613x.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\radio.h</file>
+      <file>$PROJ_DIR$\display.h</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\display1.r43</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\radio.r43</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\display.r43</file>
+      <file>$PROJ_DIR$\display.c</file>
+      <file>$PROJ_DIR$\display1.c</file>
+      <file>$PROJ_DIR$\wbsl.c</file>
+      <file>$PROJ_DIR$\wbsl.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ysizet.h</file>
+      <file>$PROJ_DIR$\radio.c</file>
+      <file>$PROJ_DIR$\project_defs.h</file>
+      <file>$PROJ_DIR$\rf1a.c</file>
+      <file>$PROJ_DIR$\rf1a.h</file>
+      <file>$PROJ_DIR$\RFBSL_Low_Level_Init.s43</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\wbsl.r43</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\rf1a.r43</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\display1.pbi</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\RFBSL_Low_Level_Init.r43</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\radio.pbi</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\rf1a.pbi</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\Wireless_Update.pbd</file>
+      <file>$PROJ_DIR$\915MHz Flash Based Updater\Obj\wbsl.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 3 7 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 3 7 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\wbsl.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 3 7 9 8 6 1 4 2 5 10 20 11 24 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\radio.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 3 7 9 24 11 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rf1a.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 3 7 9 24 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFBSL_Low_Level_Init.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\915MHz Flash Based Updater\Obj\Wireless_Update.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 30 28 31 32 34</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>RAM Based Updater</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\cc430x613x.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\radio.h</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\RFBSL_Low_Level_Init.r43</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\display1.r43</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\rf1a.r43</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\display1.pbi</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\radio.r43</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\display.r43</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\wbsl.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\Chronos RFBSL New\IAR_Chronos\ram_based_lnkcc430F6137.xcl</file>
+      <file>$PROJ_DIR$\display.h</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\wbsl.pbi</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Exe\ram_based_rfbsl.d43</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\Wireless_Update.pbd</file>
+      <file>$PROJ_DIR$\display.c</file>
+      <file>$PROJ_DIR$\display1.c</file>
+      <file>$PROJ_DIR$\wbsl.c</file>
+      <file>$PROJ_DIR$\wbsl.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ysizet.h</file>
+      <file>$PROJ_DIR$\radio.c</file>
+      <file>$PROJ_DIR$\project_defs.h</file>
+      <file>$PROJ_DIR$\rf1a.c</file>
+      <file>$PROJ_DIR$\rf1a.h</file>
+      <file>$PROJ_DIR$\RFBSL_Low_Level_Init.s43</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\radio.pbi</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Obj\rf1a.pbi</file>
+      <file>$PROJ_DIR$\RAM Based Updater\List\ram_based_rfbsl.map</file>
+      <file>$PROJ_DIR$\RAM Based Updater\Exe\ram_based_updater.txt</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 24 38 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RAM Based Updater\Exe\ram_based_rfbsl.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 38 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 21 14 19 15 18 16 20 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RAM Based Updater\Obj\Wireless_Update.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 13 17 36 37 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 3 8 10 9 7 0 4 1 2 6 11 30 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 3 8 10 9 7 0 4 2 6 11 30 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 3 8 10 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 3 8 10 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\wbsl.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 3 8 10 9 7 0 4 1 2 6 11 30 22 12 34 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 3 8 10 9 7 0 4 2 6 11 30 22 12 34 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\radio.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 3 8 10 34 12 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 3 8 10 34 12 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rf1a.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 3 8 10 34 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 3 8 10 34 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RFBSL_Low_Level_Init.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 3</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

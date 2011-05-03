@@ -1,0 +1,278 @@
+MSP430 C/C++ Optimizer                  v3.3.0
+Build Number 1KF1O-KDADEMDK-RTARQ-TAV-ZACIF_T_T_Q
+
+		======File-level Analysis Summary======
+
+
+extern void PORT2_ISR() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	_enable_interrupts() (1 times)
+	_disable_interrupts() (1 times)
+	supersmall() (1 times)
+
+extern void display_all_off2() is called from 0 sites in this file.
+    It appears to be inlineable (size = 18 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void display_update() is called from 0 sites in this file.
+    It appears to be inlineable (size = 189 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	display_symbol() (3 times)
+	is_bluerobin() (1 times)
+	display_chars() (2 times)
+	memcpy() (5 times)
+	clear_line() (3 times)
+	 ? () (7 times)
+
+extern void idle_loop() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	to_lpm() (1 times)
+
+extern void init_application() is called from 1 sites in this file.
+    It appears to be inlineable (size = 113 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_init() (1 times)
+	Timer0_Init() (1 times)
+	init_buttons() (1 times)
+	lcd_init() (1 times)
+	as_init() (1 times)
+	radio_powerdown() (1 times)
+	radio_reset() (1 times)
+	_enable_interrupts() (1 times)
+	_disable_interrupts() (1 times)
+	SetVCore() (1 times)
+
+extern void init_global_variables() is called from 1 sites in this file.
+    It appears to be inlineable (size = 53 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	battery_measurement() (1 times)
+	reset_batt_measurement() (1 times)
+	reset_temp_measurement() (1 times)
+	reset_rf() (1 times)
+	reset_bluerobin() (1 times)
+	reset_acceleration() (1 times)
+	reset_altitude_measurement() (1 times)
+	reset_stopwatch() (1 times)
+	reset_buzzer() (1 times)
+	reset_alarm() (1 times)
+	reset_date() (1 times)
+	reset_clock() (1 times)
+	read_calibration_values() (1 times)
+
+extern int main() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	init_global_variables() (1 times)
+	init_application() (1 times)
+
+extern void process_requests() is called from 0 sites in this file.
+    It appears to be inlineable (size = 49 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	start_buzzer() (1 times)
+	battery_measurement() (1 times)
+	do_acceleration_measurement() (1 times)
+	do_altitude_measurement() (1 times)
+	temperature_measurement() (1 times)
+
+extern void read_calibration_values() is called from 1 sites in this file.
+    It appears to be inlineable (size = 158 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void supersmall() is called from 1 sites in this file.
+    It appears to be inlineable (size = 86 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	MRFI_DelayMs() (1 times)
+	close_radio() (1 times)
+	SMPL_SendOpt() (1 times)
+	SMPL_Link() (1 times)
+	SMPL_Init() (1 times)
+	SMPL_Ioctl() (1 times)
+	BSP_InitBoard() (1 times)
+	open_radio() (1 times)
+
+extern void to_lpm() is called from 1 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void wakeup_event() is called from 0 sites in this file.
+    It appears to be inlineable (size = 199 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	clear_display() (1 times)
+	 ? () (6 times)
+
+
+These functions may be recursive:
+	PORT2_ISR()
+	display_update()
+	main()
+	init_global_variables()
+	init_application()
+	process_requests()
+	supersmall()
+	wakeup_event()
+
+Making this function inlineable: to_lpm()
+
+Making this function inlineable: idle_loop()
+
+Making this function inlineable: display_all_off2()
+
+These external functions are called but not defined here:
+	memcpy()
+	clear_display()
+	open_radio()
+	BSP_InitBoard()
+	SMPL_Ioctl()
+	SMPL_Init()
+	SMPL_Link()
+	SMPL_SendOpt()
+	close_radio()
+	MRFI_DelayMs()
+	temperature_measurement()
+	do_altitude_measurement()
+	do_acceleration_measurement()
+	start_buzzer()
+	reset_clock()
+	reset_date()
+	reset_alarm()
+	reset_buzzer()
+	reset_stopwatch()
+	reset_altitude_measurement()
+	reset_acceleration()
+	reset_bluerobin()
+	reset_rf()
+	reset_temp_measurement()
+	reset_batt_measurement()
+	battery_measurement()
+	SetVCore()
+	radio_reset()
+	radio_powerdown()
+	as_init()
+	lcd_init()
+	init_buttons()
+	Timer0_Init()
+	ps_init()
+	 ? ()
+	clear_line()
+	display_chars()
+	is_bluerobin()
+	display_symbol()
+	_disable_interrupts()
+	_enable_interrupts()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void wakeup_event() is called from 0 sites in this file.
+    It appears to be inlineable (size = 199 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void to_lpm() is called from 1 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void supersmall() is called from 1 sites in this file.
+    It appears to be inlineable (size = 86 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void read_calibration_values() is called from 1 sites in this file.
+    It appears to be inlineable (size = 158 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void process_requests() is called from 0 sites in this file.
+    It appears to be inlineable (size = 49 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void init_application() is called from 1 sites in this file.
+    It appears to be inlineable (size = 113 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void init_global_variables() is called from 1 sites in this file.
+    It appears to be inlineable (size = 53 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	read_calibration_values() (1 times)
+
+==============================================================================
+
+extern int main() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	init_application() (1 times)
+	init_global_variables() (1 times)
+
+==============================================================================
+
+extern void idle_loop() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	to_lpm() (1 times)
+
+==============================================================================
+
+extern void display_update() is called from 0 sites in this file.
+    It appears to be inlineable (size = 189 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void display_all_off2() is called from 0 sites in this file.
+    It appears to be inlineable (size = 18 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void PORT2_ISR() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	supersmall() (1 times)
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==
